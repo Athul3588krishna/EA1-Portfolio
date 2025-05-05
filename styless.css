@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#about .profile-img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+#projects {
+    background-color: #f9f9f9;
+}
+
+.card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+#contact .list-unstyled {
+    font-size: 1.25rem;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+}
